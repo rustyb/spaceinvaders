@@ -5,13 +5,150 @@
 <head>
   <title>Site Title {% if page.url != '/index.html' %}| {{page.title}}{% endif %}</title>
   <meta charset='UTF-8'/>
-  <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel='shortcut icon' href='{{site.baseurl}}/img/favicon.ico' type='image/x-icon' />
-  <link href='{{site.baseurl}}/site.css' rel='stylesheet' />
+  
+  <link href="{{site.baseurl}}/css/bootstrap.min.css" rel="stylesheet" media="screen">
+<style>
+	/* Featurettes
+    ------------------------- */
+
+    .featurette-divider {
+      margin: 80px 0; /* Space out the Bootstrap <hr> more */
+    }
+    .featurette {
+      padding-top: 120px; /* Vertically center images part 1: add padding above and below text. */
+      overflow: hidden; /* Vertically center images part 2: clear their floats. */
+    }
+    .featurette-image {
+      margin-top: -120px; /* Vertically center images part 3: negative margin up the image the same amount of the padding to center it. */
+    }
+
+    /* Give some space on the sides of the floated elements so text doesn't run right into it. */
+    .featurette-image.pull-left {
+      margin-right: 40px;
+    }
+    .featurette-image.pull-right {
+      margin-left: 40px;
+    }
+
+    /* Thin out the marketing headings */
+    .featurette-heading {
+      font-size: 50px;
+      font-weight: 300;
+      line-height: 1;
+      letter-spacing: -1px;
+    }
+	/* RESPONSIVE CSS
+	    -------------------------------------------------- */
+
+	    @media (max-width: 979px) {
+
+	      .container.navbar-wrapper {
+	        margin-bottom: 0;
+	        width: auto;
+	      }
+	      .navbar-inner {
+	        border-radius: 0;
+	        margin: -20px 0;
+	      }
+	
+	     .featurette {
+	        height: auto;
+	        padding: 0;
+	      }
+	      .featurette-image.pull-left,
+	      .featurette-image.pull-right {
+	        display: block;
+	        float: none;
+	        max-width: 40%;
+	        margin: 0 auto 20px;
+	      }
+	    }
+
+
+	    @media (max-width: 767px) {
+
+	      .navbar-inner {
+	        margin: -20px;
+	      }
+	      .featurette-heading {
+	        font-size: 30px;
+	      }
+	      .featurette .lead {
+	        font-size: 18px;
+	        line-height: 1.5;
+	      }
+
+	    }
+ 
+</style>
 </head>
 <body>
+	
+<!-- Header -->
+<div class="container">
+<div class="navbar navbar-inverse">
+	
+		<div class="navbar-inner">
+		    <a class="brand" href="#">Space Invaders</a>
+		    <ul class="nav">
+		      <li class="active"><a href="#">Home</a></li>
+		      <li><a href="#">Link</a></li>
+		      <li><a href="#">Link</a></li>
+		    </ul>
+		</div>
+</div>
+</div>
+<!--ENd Header -->
   <div class='container'>
-    {{content}}
-  </div>
+	<div class="row">
+		<div class="span12">
+			{{content}}
+		</div>
+		
+			</div>
+		</div>
+			<hr class="featurette-divider">
+			<div class="container">
+				<div class="featurette">
+			        <img class="featurette-image pull-right img-rounded" src="http://farm9.staticflickr.com/8498/8289539114_ce3cd45b30_z.jpg">
+			        <h2 class="featurette-heading">Redesign the city. <span class="muted">Do it your way!</span></h2>
+			        <p class="lead">Are you a student or graduate built environment professional who wants to change the urban environment for the better? Here's your chance with the new <strong>Space Invaders</strong> competition.</p>
+			      </div>
+			</div>
+			      
+			<div style="background:#111">
+				<hr class="featurette-divider">
+				<div class="container">
+					<div class="featurette">
+				        <img class="featurette-image pull-left img-rounded" src="{{site.baseurl}}/img/space-invaders.png">
+				        <h2 class="featurette-heading" style="color:#FFF;">Fight for glory. <span class="muted">Your Colleges' pride is at stake!</span></h2>
+				        <p class="lead" style="color:#999;">The competition will be judged by a select panel of judges with the winning team receiving some sort of amazing prize for you and your college. You will get your model / design built out by a professional 3D modeling agency to show off your handy work forever more.</p>
+				      </div>	
+				</div>
+				
+			</div>
+					
+
+			      <!-- /END THE FEATURETTES -->
+
+
+			      <!-- FOOTER -->
+			<div class="container">
+				<div class="span12">
+					<footer>
+			        <p class="pull-right"><a href="#">Back to top</a></p>
+			        <p>&copy; 2013 Space Invaders Comp. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+			      </footer>
+				</div>
+				
+			</div>
+			      
+	
+		
+  
   <script src='{{site.baseurl}}/site.js'></script>
+  <script src="js/bootstrap.min.js"></script>
 </body>
