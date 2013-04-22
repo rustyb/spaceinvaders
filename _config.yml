@@ -1,4 +1,4 @@
 auto: true
 server: true
-baseurl:
+baseurl: http://rustyb.github.com/spaceinvaders
 permalink: /:title
