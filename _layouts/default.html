@@ -82,22 +82,27 @@
 	      }
 
 	    }
+	body {padding-top:40px;}
  
 </style>
 </head>
-<body>
+<body data-spy="scroll" data-target=".navbar">
 	
 <!-- Header -->
 <div class="container">
-<div class="navbar navbar-inverse">
+<div class="navbar navbar-inverse navbar-fixed-top">
 	
 		<div class="navbar-inner">
+			<div class="container">
 		    <a class="brand" href="#">Space Invaders</a>
 		    <ul class="nav">
 		      <li class="active"><a href="#">Home</a></li>
-		      <li><a href="#">Link</a></li>
-		      <li><a href="#">Link</a></li>
+		      <li><a href="#what">What</a></li>
+		      <li><a href="#fight">Fight</a></li>
+			  <li><a href="#site">The Site</a></li>
+			  <li><a href="#register">Register</a></li>
 		    </ul>
+			</div>
 		</div>
 </div>
 </div>
@@ -112,17 +117,17 @@
 		</div>
 			<hr class="featurette-divider">
 			<div class="container">
-				<div class="featurette">
+				<div id="what" class="featurette">
 			        <img class="featurette-image pull-right img-rounded" src="http://farm9.staticflickr.com/8498/8289539114_ce3cd45b30_z.jpg">
-			        <h2 class="featurette-heading">Redesign the city. <span class="muted">Do it your way!</span></h2>
+			        <h2  class="featurette-heading">Redesign the city. <span class="muted">Do it your way!</span></h2>
 			        <p class="lead">Are you a student or graduate built environment professional who wants to change the urban environment for the better? Here's your chance with the new <strong>Space Invaders</strong> competition.</p>
 			      </div>
 			</div>
 			      
 			<div style="background:#111">
 				<hr class="featurette-divider">
-				<div class="container">
-					<div class="featurette">
+				<div  class="container">
+					<div id="fight"  class="featurette">
 				        <img class="featurette-image pull-left img-rounded" src="{{site.baseurl}}/img/space-invaders.png">
 				        <h2 class="featurette-heading" style="color:#FFF;">Fight for glory. <span class="muted">Your Colleges' pride is at stake!</span></h2>
 				        <p class="lead" style="color:#999;">The competition will be judged by a select panel of judges with the winning team receiving some sort of amazing prize for you and your college. You will get your model / design built out by a professional 3D modeling agency to show off your handy work forever more.</p>
@@ -132,18 +137,18 @@
 			
 			<hr class="featurette-divider">
 			<div class="container">
-				<div class="featurette">
+				<div id="site" class="featurette">
 			        <img class="featurette-image pull-right img-rounded" src="{{site.baseurl}}/img/site-picture.png">
-			        <h2 class="featurette-heading">Abbey Street. <span class="muted">Is your playground!</span></h2>
+			        <h2  class="featurette-heading">Abbey Street. <span class="muted">Is your playground!</span></h2>
 			        <p class="lead">Are you a student or graduate built environment professional who wants to change the urban environment for the better? Here's your chance with the new <strong>Space Invaders</strong> competition.</p>
 			      </div>
 			</div>
 			<div style="background:#111">
 				<hr class="featurette-divider">
 				<div class="container">
-					<div class="featurette">
+					<div id="register" class="featurette">
 				        <img class="featurette-image pull-left img-rounded" src="{{site.baseurl}}/img/space-invaders.png">
-				        <h2 class="featurette-heading" style="color:#FFF;">Register Now. <span class="muted">C'mon you know you want to!</span></h2>
+				        <h2  class="featurette-heading" style="color:#FFF;">Register Now. <span class="muted">C'mon you know you want to!</span></h2>
 				        <p class="lead" style="color:#999;">You will need to form a team of 4 people in order to qualify for any prizes. Any less sure there won't be enough people to share the awesome prize with.</p>
 				      </div>	
 				</div>				
