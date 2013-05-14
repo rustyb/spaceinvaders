@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Site Title {% if page.url != '/index.html' %}| {{page.title}}{% endif %}</title>
+  <title>{% if page.url != '/index.html' %}| {{page.title}} {% endif %}</title>
   <meta charset='UTF-8'/>
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -121,8 +121,8 @@
 		
 			</div>
 		</div>
-			<hr class="featurette-divider">
-			<div class="container">
+			
+			<div class="container" style="margin-top:60px;">
 				<div id="what" class="featurette">
 			        <img class="featurette-image pull-right img-rounded" src="http://farm9.staticflickr.com/8498/8289539114_ce3cd45b30_z.jpg">
 			        <h2  class="featurette-heading">Redesign the city. <span class="muted">Do it your way!</span></h2>
@@ -206,8 +206,8 @@
 						<div id="sponsors" class="featurette">
 						  <h2  class="featurette-heading" style="color:#FFF;">Thank you. <span class="muted">To these lovely folks!</span></h2>
 						  <img class="featurette-image-spons img-rounded" src="http://www.dublincity.ie/Pages/Welcome/defaultpagecontent/images/ShortLogo.png">
-							<p class="lead" style="color:#999;">Space Invaders 2013 would be nothing without the generous support of the folks shown here. Thank you all for supporting the prizes, providing the venue and donating your time to making Space Invaders a reality.
-							</p>
+							
+							<p class="lead" style="color:#999;">Space Invaders 2013 would be nothing without the generous support of the folks shown here. Thank you all for supporting the prizes, providing the venue and donating your time to making Space Invaders a reality.</p>
 							<h2  class="featurette-heading" style="color:#FFF;"><span class="muted">Organised By</span></h2>
                           <img class="featurette-image-spons img-rounded" src="{{site.baseurl}}/img/rtpi_logo.jpg">
                           <img class="featurette-image-spons img-rounded" src="http://www.d1035517-1.cp.blacknight.com/wp-content/uploads/2011/08/YPN_logo_wp2.jpg" style="height:100px;">
