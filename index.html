@@ -1,7 +1,9 @@
 ---
-layout: default
+layout: home
 title: Space Invaders 2013 - Thomas Street
 ---
 
 
-<!--<h1 class="text-center">Space Invaders</h1>-->
+{% for post in site.categories.feature %}
+	{{post.content}}
+{% endfor %}
