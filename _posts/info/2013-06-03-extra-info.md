@@ -9,6 +9,7 @@ image: "http://www.dublincity.ie/Pages/Welcome/defaultpagecontent/images/ShortLo
 ---
 
 ![](/media/DigHub%20Night%20Shot.jpg)
+
 ## Useful Information
 **On this page you will find extra useful information that may not be included in the competition brief. It will be updated on a regular basis so make sure to check back for updates.** 
 
@@ -23,4 +24,4 @@ image: "http://www.dublincity.ie/Pages/Welcome/defaultpagecontent/images/ShortLo
 
 ## What's in the vicinity?
 
-<iframe width='100%' height='500' frameBorder='0' src='http://a.tiles.mapbox.com/v3/rusty.map-gkla82az.html#14/53.34276000000002/-6.282990000000015'></iframe>
+<iframe width='100%' height='500' frameBorder='0' src='http://a.tiles.mapbox.com/v3/rusty.map-gkla82az.html#17/53.34276000000002/-6.282990000000015'></iframe>
