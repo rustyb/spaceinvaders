@@ -4,6 +4,6 @@ baseurl: http://www.dublinspaceinvaders.co
 permalink: /:title
 prose:
   rooturl: '_posts'
-  siteurl: "http://dublinspaceinvaders.co"
+  siteurl: "http://www.dublinspaceinvaders.co"
   media: "media"
 
