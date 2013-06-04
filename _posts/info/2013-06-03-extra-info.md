@@ -8,7 +8,6 @@ image: "http://www.dublincity.ie/Pages/Welcome/defaultpagecontent/images/ShortLo
 
 ---
 
-
 ## Useful Information
 **On this page you will find extra useful information that may not be included in the competition brief. It will be updated on a regular basis so make sure to check back for updates.** 
 
