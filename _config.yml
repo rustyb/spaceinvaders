@@ -5,4 +5,22 @@ permalink: /:title
 prose:
   rooturl: '_posts'
   media: "media"
+  metadata:
+    _posts:
+      - name: "layout"
+        field:
+          element: "text"
+          label: "Layout"
+          element: "select"
+          label: "Item"
+          placeholder: "Select an Item"
+          options:
+            - name: "info"
+              value: "info"
+          selected: "info"
+      - name: "image"
+        field:
+          element: "string"
+          label: "Image"
+          value: "http://www.dublincity.ie/Pages/Welcome/defaultpagecontent/images/ShortLogo.png"
 
