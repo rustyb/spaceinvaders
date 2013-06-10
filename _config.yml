@@ -7,12 +7,15 @@ prose:
   media: "media"
   metadata:
     _posts:
+      - name: "title"
+        field:
+          element: "string"
+          label: "Title"
+          value: "Please Change me to a the proper Title"
       - name: "layout"
         field:
-          element: "text"
-          label: "Layout"
           element: "select"
-          label: "Item"
+          label: "Layout"
           placeholder: "Select an Item"
           options:
             - name: "info"
