@@ -12,6 +12,11 @@ prose:
           element: "string"
           label: "Title"
           value: "Please Change me to a the proper Title"
+      - name: "layout"
+        field:
+          element: "text"
+          label: "Layout"
+          value: "info"
       - name: "image"
         field:
           element: "string"
