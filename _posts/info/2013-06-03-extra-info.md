@@ -6,7 +6,7 @@ categories:
 ---
 
 ## Useful Information
-**On this page you will find additional useful information that may not be included in the competition brief. It will be updated on a regular basis so make sure to check back for updates.** 
+**On this page you will find additional useful information, that may not be included in the competition brief. It will be updated on a regular basis so make sure to check back for updates.** 
 
 ## Useful Websites:
 - [Dublin City Planning Dept](http://www.dublincity.ie/Planning/Pages/Planning.aspx)
