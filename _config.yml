@@ -4,7 +4,7 @@ baseurl: http://www.dublinspaceinvaders.co
 permalink: /:title
 prose:
   rooturl: '_posts'
-  media: "media"
+  media: "_posts/media"
   metadata:
     _posts:
       - name: "title"
