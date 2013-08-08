@@ -1,10 +1,10 @@
-#auto: true
 server: true
 baseurl: http://www.dublinspaceinvaders.co
 permalink: /:title
 prose:
   rooturl: '_posts'
-  media: "_posts/media"
+  siteurl: 'http://www.dublinspaceinvaders.co'
+  media: 'media'
   metadata:
     _posts:
       - name: "title"
