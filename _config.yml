@@ -2,7 +2,6 @@ server: true
 baseurl: http://www.dublinspaceinvaders.co
 permalink: /:title
 prose:
-  #rooturl: '_posts'
   siteurl: 'http://www.dublinspaceinvaders.co'
   media: 'media'
   metadata:
