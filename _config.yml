@@ -1,6 +1,7 @@
 server: true
 baseurl: http://www.dublinspaceinvaders.co
 permalink: /:title
+markdown: rdiscount
 prose:
   rooturl: '_posts'
   media: "media"
