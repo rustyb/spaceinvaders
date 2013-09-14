@@ -8,7 +8,7 @@ categories:
 
 Thank you so much to these lovely folks at BMA Planning and Masterplan Associates for donating their hard earned dosh to space invaders.
 
-<img class="featurette-image-spons img-rounded" src="../media/masterplan.png" style="max-height:100px; background:#000;">
+<img class="featurette-image-spons img-rounded" src="../media/masterplan.png" style="max-height:60px; background:#000;">
 <img class="featurette-image-spons img-rounded" src="../media/bma-planning.png" style="max-height:100px;">
 
 **And lets not forget all our sponsors to date.**
