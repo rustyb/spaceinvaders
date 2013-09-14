@@ -6,19 +6,17 @@ categories:
   - updates
 ---
 
-### {{post.title}}
-
 Thank you so much to these lovely folks at BMA Planning and Masterplan Associates for donating their hard earned dosh to space invaders.
 
-<img class="featurette-image-spons img-rounded" src="{{site.baseurl}}/media/masterplan.png" style="max-height:100px; background:#000;">
-<img class="featurette-image-spons img-rounded" src="{{site.baseurl}}/media/bma-planning.png" style="max-height:100px;">
+<img class="featurette-image-spons img-rounded" src="../media/masterplan.png" style="max-height:100px; background:#000;">
+<img class="featurette-image-spons img-rounded" src="../media/bma-planning.png" style="max-height:100px;">
 
 **And lets not forget all our sponsors to date.**
 
 <div><img class="featurette-image-spons img-rounded" src="http://www.dublincity.ie/Pages/Welcome/defaultpagecontent/images/ShortLogo.png" style="max-height:140px; background:#000;">
-<img class="featurette-image-spons img-rounded" src="{{site.baseurl}}/img/arc_logo.png" style="max-height:140px;">
-<img class="featurette-image-spons img-rounded" src="{{site.baseurl}}/img/ipi-logo.png" style="height:140px;">
-<img class="featurette-image-spons img-rounded" src="{{site.baseurl}}/img/rtpi_irl.png" style="max-height:100px;"></div>
+<img class="featurette-image-spons img-rounded" src="../img/arc_logo.png" style="max-height:140px;">
+<img class="featurette-image-spons img-rounded" src="../img/ipi-logo.png" style="height:140px;">
+<img class="featurette-image-spons img-rounded" src="../img/rtpi_irl.png" style="max-height:100px;"></div>
 
 We are delighted with the support you have given us so far.
 

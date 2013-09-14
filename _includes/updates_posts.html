@@ -1,0 +1,22 @@
+{% for post in site.categories.updates %}
+		<article style="margin-bottom:50px;">
+		             <div class="row">
+		             <div class="large-11 small-12 small-centered large-centered columns" >
+							<div style="background:#fff;padding:30px;border-radius:4px;">
+								<h6 class="subheader" style="text-align:center;"><small><a href="{{ site.url }}{{post.url}}">{{ post.date | date: "%d %b %Y" }}</a> | By Space Invaders</small></h6>
+								<h5 style="text-align:center;"><a href="{{ site.baseurl }}{{post.url}}">{{ post.title }}</a></h5>
+								{{ post.content | markdownify }}
+								<div style="margin-top:20px;">
+									<a href="https://twitter.com/share" class="twitter-share-button" data-size="large" data-url="{{site.baseurl}}{{post.url}}" data-text="{{post.title}} #DSI">Tweet</a>
+									<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+									<div class="fb-like" data-href="{{site.baseurl}}{{post.url}}" data-width="300" data-layout="button_count" data-show-faces="true" data-send="false"></div>
+								</div>
+
+							</div>
+		                 	
+
+		             </div>
+
+		</article>
+
+{% endfor %}
