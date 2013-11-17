@@ -14,7 +14,6 @@ Thank you so much to these lovely folks at BMA Planning and Masterplan Associate
 **And lets not forget all our sponsors to date.**
 
 <div><img class="featurette-image-spons img-rounded" src="http://www.dublincity.ie/Pages/Welcome/defaultpagecontent/images/ShortLogo.png" style="max-height:140px; background:#000;">
-<img class="featurette-image-spons img-rounded" src="../img/arc_logo.png" style="max-height:140px;">
 <img class="featurette-image-spons img-rounded" src="../img/ipi-logo.png" style="height:140px;">
 <img class="featurette-image-spons img-rounded" src="../img/rtpi_irl.png" style="max-height:100px;"></div>
 
